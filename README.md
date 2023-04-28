@@ -22,7 +22,7 @@
 
 ## pytorch(GPU) 安装
 
-> conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+> conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 ## PyCharm 远程开发
 
