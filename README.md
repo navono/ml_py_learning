@@ -19,6 +19,9 @@
 >
 > conda env create -f environment.yaml
 >
+> pip freeze > requirements.txt
+> 
+> pip install -r requirements.txt
 
 ## pytorch(GPU) 安装
 
