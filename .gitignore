@@ -136,6 +136,7 @@ dmypy.json
 .idea
 runs/
 yolov8/datasets/
+samples/
 data/
 .ipynb_checkpoints
 *.pt
