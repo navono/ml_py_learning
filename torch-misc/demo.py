@@ -1,6 +1,5 @@
 import torch
 from torch import nn
-from torch import optim
 
 input_dim = 2
 hidden_dim = 10
@@ -23,7 +22,6 @@ class NeuralNetwork(nn.Module):
 
 model = NeuralNetwork(input_dim, hidden_dim, output_dim)
 print(model)
-
 
 """
 NeuralNetwork(
