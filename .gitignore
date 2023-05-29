@@ -138,6 +138,7 @@ runs/
 yolov8/datasets/
 samples/
 data/
+runs/
 .ipynb_checkpoints
 *.pt
 *.ckpt
