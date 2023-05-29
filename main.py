@@ -60,6 +60,7 @@ def print_hi(name):
     print(f'Hi, {name}, {v}')
     # Press Ctrl+F8 to toggle the breakpoint.
     print(torch.__version__)
+
     print(torch.backends.cudnn.m.is_available())
     print(torch.cuda.is_available())
 
@@ -80,4 +81,14 @@ if __name__ == '__main__':
 
     training()
 
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+# 实现冒泡排序
+def bubble_sort(arr):
+    for i in range(len(arr) - 1):
+        for j in range(len(arr) - 1 - i):  # 每一轮比较次数
+            if arr[j] > arr[j + 1]:  # 如果前一个数大于后一个数
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]  # 交换位置
+    return arr
