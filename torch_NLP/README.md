@@ -17,3 +17,5 @@
 - 机器翻译（Machine Translation）
 
 see [this](https://github.com/MicrosoftDocs/pytorchfundamentals/tree/main/nlp-pytorch).
+
+[Python NLP Book code](https://github.com/Relph1119/PyTorchNLPBook/blob/master/SETUP.md).
