@@ -140,6 +140,7 @@ samples/
 data/
 images/
 runs/
+model_storage/
 .ipynb_checkpoints
 *.pt
 *.ckpt
