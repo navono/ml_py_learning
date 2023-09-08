@@ -135,7 +135,7 @@ dmypy.json
 
 .idea
 runs/
-yolov8/datasets/
+object-detection/yolov8/datasets/
 samples/
 data/
 images/
