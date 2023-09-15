@@ -141,6 +141,7 @@ data/
 images/
 runs/
 model_storage/
+paintings
 .ipynb_checkpoints
 *.pt
 *.ckpt
