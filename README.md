@@ -37,6 +37,19 @@
 >
 > python -c "import torch; print(torch.cuda.is_available())"
 
+### Jupyter
+
+> conda install -c conda-forge jupyter_contrib_nbextensions
+>
+> conda install -c conda-forge jupyter_nbextensions_configurator
+
+
+> jupyter contrib nbextension install --user --skip-running-check
+>
+> jupyter contrib nbextensions install --user
+>
+> jupyter nbextensions_configurator enable --user
+
 ## PyCharm 远程开发
 
 https://youtrack.jetbrains.com/issue/PY-35978
