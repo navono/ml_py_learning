@@ -33,9 +33,11 @@
 
 > conda create --name d2l python=3.8 -y
 >
-> conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+> conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch -c nvidia -y
 >
 > python -c "import torch; print(torch.cuda.is_available())"
+>
+> curl https://zh-v2.d2l.ai/d2l-zh-2.0.0.zip -o d2l-zh.zip
 
 ### Jupyter
 
