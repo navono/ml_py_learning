@@ -27,11 +27,13 @@
 
 > conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 >
+> pip install -U d2l
+>
 > conda install -c conda-forge cudatoolkit=11.8 cudnn=8.9.2
 
 ### For d2l
 
-> conda create --name d2l python=3.8 -y
+> conda create --name d2l python=3.9 -y
 >
 > conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch -c nvidia -y
 >
